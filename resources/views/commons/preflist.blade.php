@@ -270,47 +270,7 @@
 		</div>
 		
 	
-	
-	
-	
-	
-	<hr class="my-5" />
-	<h4>Fab Buttons</h4>
-	<div class="row">
-		<div class="col">
-		    <button class="btn btn-purple-moon btn-fab">1</button>
-		</div>
-		<div class="col">
-		    <button class="btn btn-ultra-voilet btn-fab">2</button>
-		</div>
-		<div class="col">
-		    <button class="btn btn-pink-moon btn-fab">3</button>
-		</div> 
-		<div class="col">
-		    <button class="btn btn-cool-blues btn-fab">4</button>
-		</div> 
-		<div class="col">
-		    <button class="btn btn-dark-blue btn-fab">5</button>
-		</div> 
-		</div>
-	
-	<div class="row mt-3">
-	    <div class="col">
-		    <button class="btn btn-green-moon btn-fab">6</button>
-		</div> 
-		<div class="col">
-		    <button class="btn btn-orange-moon btn-fab">7</button>
-		</div>
-		<div class="col">
-		    <button class="btn btn-dark-moon btn-fab">8</button>
-		</div>
-		<div class="col">
-		    <button class="btn btn-light-moon btn-fab">9</button>
-		</div>
-		<div class="col">
-		    <button class="btn btn-funky-moon btn-fab">10</button>
-		</div>
-	</div>
+ <br><br><br>
 </div>
 	
 	
