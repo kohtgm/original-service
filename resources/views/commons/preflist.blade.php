@@ -1,5 +1,5 @@
 <div class="container">
-    <h1 class="text-center">都道府県選択</h1>
+    <h1 class="text-center">都道府県を選択してください</h1>
     <hr class="my-5" />
     
     <h4>北海道・東北</h4>
@@ -415,5 +415,11 @@
 
 hr {
     border-top: 1px solid #9E9E9E;
+}
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
 }
  </style>

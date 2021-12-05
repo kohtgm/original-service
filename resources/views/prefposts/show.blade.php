@@ -1,14 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-        <div class="center jumbotron">
+        {{--  <div class="center jumbotron">
             <div class="text-center">
                 <h1>画像など</h1>
             </div>
-        </div>
+        </div>　--}}
         
-        <img src="{{ url('img/prefmap',[$pref->map_image]) }}" alt="都道府県画像" width="200">
-        {!! nl2br(e($pref->name)) !!}</p>
+        <h1 class="text-center">{!! nl2br(e($pref->name)) !!}</h1>
+         <hr class="style-four" />
+        <img src="{{ url('img/prefmap',[$pref->map_image]) }}" alt="都道府県画像" width="300" style="display: block; margin: auto;">
+        <br>
+        
+       
         
         @if (count($prefposts) == 0)
         まだ投稿がありません。</p>
@@ -28,6 +32,8 @@
         </ul>
     {{-- ページネーションのリンク --}}
     {{ $prefposts->links() }}
+    
+    <br><br><br>
                          
         @include('commons.preflist')
 @endsection
