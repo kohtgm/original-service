@@ -272,14 +272,53 @@
 	
  <br><br><br>
 </div>
-	
-	
 
-	
 
 
     
  <style>
+ 
+div.container-m {
+  margin-top: 80px;
+   margin-bottom: 80px;
+   margin-left: 50px;
+ }
+ 
+
+footer {
+     background: #666600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #666600, #999966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(180deg, #666600, #999966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    text-align: center;
+}
+
+
+
+footer small {
+    display: block;
+    padding: 20px 0;
+    color: #fff;
+}
+ 
+ .box {
+    margin: 10px 200px;
+}
+ 
+#conta {
+	height: 100%;
+	width: 1200px;/*中央の幅の指定*/
+	margin: 0 auto;
+	background: #fff;/*中央の背景を白にする���定*/
+}
+ 
+
+
+
+ #canvas_wrapper{
+   width: 100%;
+   text-align:center;
+}
 
 .btn-pref {
     background: #2193b0;  /* fallback for old browsers */
@@ -297,7 +336,7 @@
     /*background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* background: linear-gradient(to right, #777777, #bbbbbb); */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -308,7 +347,7 @@
     background: #654ea3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -319,7 +358,7 @@
     background: #ec008c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -330,7 +369,7 @@
     background: #2193b0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -341,7 +380,7 @@
     background: #7474BF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -352,7 +391,7 @@
     background: #56ab2f;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -363,7 +402,7 @@
     background: #fc4a1a;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -374,7 +413,7 @@
     background: #141E30;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -385,7 +424,7 @@
     background: #FFEFBA;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;
@@ -396,7 +435,7 @@
     background: #A770EF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #ddd;
+    color: #fff;
     border: 3px solid #eee;
     font-size: 20px;
 	font-weight: bold;

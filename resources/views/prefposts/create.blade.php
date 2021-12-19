@@ -8,8 +8,11 @@
         </div> --}}
          <h1 class="text-center">{!! nl2br(e($pref->name)) !!}</h1>
          <hr class="style-four" />
-        <img src="{{ url('img/prefscene',[$pref->scene_image]) }}" alt="都道府県風景画像" width="1000" style="display: block; margin: auto;">
-        <br>
+        <img src="{{ url('img/prefscene',[$pref->scene_image]) }}" alt="都道府県風景画像" width="800" style="display: block; margin: auto;">
+        
+        <h6 class="text-center">{!! nl2br(e($pref->title.' © '.$pref->creator)) !!} <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">クリエイティブ・コモンズ・ライセンス（表示4.0 国際）</a></h6>
+        
+        <br><br>
         <h3 class="text-center">{!! nl2br(e($pref->name)) !!}の魅力を投稿しよう！</h3>
                         {!! Form::open(['route' => ['pref.store', $pref->id]]) !!}
                       {{-- {!! Form::open(['route' => 'pref.store', [30]]) !!} --}}

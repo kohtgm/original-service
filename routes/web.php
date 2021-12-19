@@ -20,5 +20,6 @@ Route::get('/', function () {
 Route::get('/', 'PrefpostsController@index');
 
 Route::get('pref/{id}/create', 'PrefpostsController@create')->name('pref.create');
+
 Route::post('pref/{id}', 'PrefpostsController@store')->name('pref.store');
 Route::get('pref/{id}/show', 'PrefpostsController@show')->name('pref.show');
